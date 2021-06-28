@@ -1,0 +1,6 @@
+<div *ngFor="let image of images; let i=index">
+    <div class="image">
+        <img [src]="image.url" [alt]="image.name">
+        <button class="remove" (click)="removeImg(i)">X</button>
+    </div>
+</div>

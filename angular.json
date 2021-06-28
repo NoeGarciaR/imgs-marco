@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "marco"
+  "defaultProject": "marco",
+  "cli": {
+    "analytics": false
+  }
 }
